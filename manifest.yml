@@ -1,0 +1,10 @@
+---
+applications:
+- name: localilator
+  disk_quota: 512M
+  host: localilator
+  name: localilator
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

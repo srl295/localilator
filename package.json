@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node --icu-data-dir=node_modules/full-icu index.js"
+    "//start":"node --icu-data-dir=/home/vcap/app/app/node_modules/full-icu:node_modules/full-icu index.js",
+    "start":"node index.js"
   },
   "author": "Steven R. Loomis",
   "license": "Apache-2.0",
