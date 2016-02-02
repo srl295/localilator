@@ -15,7 +15,7 @@ http.createServer(function(req, res) {
       +l.languages+'\n'
       +'\n'
       +'\n'
-      +'\n');
+      +'See: https://github.com/srl295/localilator\n');
 }).listen(port, hostname, function() {
   console.log('Server running at ' + appEnv.url);
 });
