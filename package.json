@@ -1,0 +1,18 @@
+{
+  "name": "localilator",
+  "version": "1.0.0",
+  "description": "Locale sharing test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node --icu-data-dir=node_modules/full-icu index.js"
+  },
+  "author": "Steven R. Loomis",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "full-icu": "^1.0.2",
+    "negotiator": "^0.6.0"
+  }, 
+ "private": true
+}
