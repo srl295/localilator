@@ -14,5 +14,9 @@
     "full-icu": "^1.0.2",
     "negotiator": "^0.6.0"
   }, 
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/srl295/localilator"
+  },
  "private": true
 }
