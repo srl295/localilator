@@ -8,3 +8,7 @@ Author: Steven R. Loomis
 Sample isntance: https://localilator.mybluemix.net/
 
 License: Apache-2.0
+
+to run with full ICU start it this way:
+
+`node --icu-data-dir=node_modules/full-icu index.js`
