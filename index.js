@@ -1,5 +1,8 @@
 var appEnv = require('cfenv').getAppEnv();
 
+// just make sure Intl is working
+console.log('Hoy es: '+new Intl.DateTimeFormat('es',{month:'long',day:'numeric',year:'numeric'}).format(new Date()));
+
 var localilator = require('./localilator');
 
 var http = require('http');

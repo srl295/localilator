@@ -5,10 +5,9 @@ See: https://github.com/nodejs/Intl/issues/10
 
 Author: Steven R. Loomis
 
-Sample isntance: https://localilator.mybluemix.net/
+Sample instance: https://localilator.mybluemix.net/
 
 License: Apache-2.0
 
-to run with full ICU start it this way:
-
-`node --icu-data-dir=node_modules/full-icu index.js`
+(Note: this is an example of how to use `full-icu` in a server
+environment such as IBM Bluemix.)
